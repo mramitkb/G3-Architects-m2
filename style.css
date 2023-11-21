@@ -2,4 +2,102 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-container{
+    
+    background-color: #FFF3E8;
+}
+
+/* Navbar starts from here */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+.nav-logo{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(34, 33, 33);
+}
+.anchor{
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Banner starts from here */
+.banner-container{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.banner-details{
+    text-align: center;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 800;
+    color: rgb(22, 22, 22);
+}
+.banner-p{
+    padding: 32px 0px;
+    color: rgb(85, 84, 84);
+}
+.primary-btn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #FF8C2A;
+}
+.primary-btn:hover{
+    color: black;
+    cursor: pointer;
+    background-color: #cc6002;
+}
+.banner-img{
+    padding: 40px 0px;
+    width: 100%;
+}
+
+/* Features starts from here */
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    gap: 60px;
+}
+.four-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.feature-details{
+    color: black;
+}
+.feature-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.gray{
+    color: gray;
+}
+.black{
+    color: black;
+}
+.orange{
+    color: #FF8D2A;
+}
+.feature-p{
+    padding: 32px 0px;
+    color: rgb(85, 84, 84);
 }
