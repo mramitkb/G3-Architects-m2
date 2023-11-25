@@ -144,9 +144,25 @@
 .ex-img{
     max-width: 700px;
     max-height: 980px;
+    position: relative;
 }
-
-
+.ten-years{
+    background-color: #FF8C2A;
+    max-width: 280px;
+    max-height: 200px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+.big{
+    font-size: 48px;
+    font-weight: bold;
+}
 
 
 
@@ -201,7 +217,6 @@
         font-size: 32px;
     }
     .experience-container{
-        /* display: flex; */
         flex-direction: column;
     }
     .ex-img{
@@ -211,6 +226,14 @@
         max-width: 100%;
         padding: 20px;
     }
+    .ten-years{
+        padding: 20px;
+        margin-left: auto;
+    }
+    .big{
+        font-size: 24px;
+    }
+
 }
 
     /* Tablet and Other devices */
@@ -248,5 +271,13 @@
     }
     .four-details{
         max-width: 80%;
+    }
+    .ten-years{
+        padding: 25px;
+        margin-top: -80px;
+        margin-left: -20px;
+    }
+    .big{
+        font-size: 32px;
     }
 }
