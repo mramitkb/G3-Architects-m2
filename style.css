@@ -224,31 +224,18 @@
     max-width: 250px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Copyright starts from here */
+.copyright{
+    max-width: 1440px;
+    margin: 100px auto;
+    background-color: #FFF4E8;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+.architect, .amit{
+    font-weight: bold;
+}
 
 
 /* RESPONSIVE MEDIA QUERY */
@@ -304,11 +291,14 @@
     .sponsor-img{
         width: 70px;
     }
+    .copyright{
+        margin: 50px 30px;
+    }
 }
 
     /* Tablet and Other devices */
 
-@media screen and (min-width: 577px) and (max-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 1024px) {
     
     .nav-container{
         display: flex;
@@ -355,5 +345,8 @@
     }
     .sponsor-img{
         width: 120px;
+    }
+    .copyright{
+        margin: 50px 30px;
     }
 }
