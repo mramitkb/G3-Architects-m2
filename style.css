@@ -106,7 +106,7 @@
 .experience-container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 20px 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -164,6 +164,41 @@
     font-weight: bold;
 }
 
+/* Facts starts from here */
+.facts-container{
+    max-width: 1440px;
+    margin: 100px auto;
+    padding: 10px;
+}
+.fact-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.fact-p{
+    margin: 15px 0px;
+    width: 50%;
+}
+.fact-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.achievement{
+    border: 1px solid #FF8C2A;
+    padding: 8px;
+    border-radius: 5px;
+    width: 180px;
+}
+.count{
+    margin: 5px 0px;
+    font-size: 28px;
+}
+.tag{
+    color: rgb(85, 84, 84);
+}
 
 
 
