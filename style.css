@@ -268,7 +268,13 @@
     .big{
         font-size: 24px;
     }
-
+    .fact-p{
+        width: 100%;
+    }
+    .fact-box{
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
     /* Tablet and Other devices */
